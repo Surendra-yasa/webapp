@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-			   git credentialsId: 'admin', url: 'hhttps://github.com/Surendra-yasa/webapp.git'
+			   git 'https://github.com/Surendra-yasa/webapp.git'
              }
              }
 		stage('maven version') {
