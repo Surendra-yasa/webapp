@@ -1,4 +1,4 @@
-def buildNumber = BUILD_NUMBER
+
 pipeline {	
     agent any
     stages {
